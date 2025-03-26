@@ -1,0 +1,38 @@
+# Ignore files 
+
+
+# Ignore environment configuration files (API keys, database settings)
+.env
+config.php
+
+# Ignore cache & session files
+storage/
+cache/
+sessions/
+
+# Ignore system logs and temporary files
+*.log
+*.bak
+*.tmp
+
+# Ignore database files and backups
+*.sql
+*.sqlite
+*.db
+
+# Ignore compressed files (zip, tar, etc.)
+*.zip
+*.tar.gz
+
+# Ignore dependency folders (PHP Composer & Node.js)
+# vendor/
+# node_modules/
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+
+# Ignore OS-generated system files
+.DS_Store
+Thumbs.db
+
